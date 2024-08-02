@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eff3ff;
+}
+
+.container {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#card {
+    width: 100%;
+    padding: 30px 20px;
+    background: radial-gradient(circle at 50% 0%, orange 45%, #fff 36%);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+#card img {
+    width: 200px;
+    max-height: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+.hp {
+    width: 80px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: auto;
+}
+
+.poke-name {
+    text-align: center;
+    font-weight: 600;
+}
+
+.types {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.status {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 18px;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.1s ease;
+}
+
+#btn:hover {
+    background-color: #2b2b2b;
+}
+
+
+.types span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
